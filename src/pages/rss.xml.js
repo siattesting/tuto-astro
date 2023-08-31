@@ -6,6 +6,6 @@ export async function GET() {
     description: 'My Journey Learning Astor',
     site: 'https://tuto-astro-siattesting.netlify.app',
     items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
-    language: `<language>en-us</language>`,
+    customData: `<language>en-us</language>`,
   });
 }
