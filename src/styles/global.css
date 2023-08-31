@@ -81,3 +81,13 @@ h1 {
     display: none;
   }
 }
+
+/* Theme toggler CSS */
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links {
+  color: #fff;
+}
